@@ -1,0 +1,100 @@
+@media all and (max-width: 360px){
+  
+  div{
+    display: block;
+  }
+  nav{
+    background-color: #acd373;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 2x 2x 4px rgba(0,0,0,0.6);  
+  }
+  nav div .right{
+    display: none
+  }
+  .container {
+    width: 360px;
+    margin: auto;
+  }
+  header {
+    text-align: center;
+    height: 350px;
+    background-color: #9abd67;
+    background-image: url("../SixteenImages/cityscapemobile.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+  header h1 {
+    padding-top: 125px;
+    color: #f7f7f7;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+}
+  header h2 {
+    margin-top: 18px;
+    font-size: 13px;
+    font-family: "DroidSerif";
+    font-style: italic;
+    color: #f7f7f7;
+  }
+  header a {
+    margin-top: 55px;
+    display: block;
+  }
+  div .who-we-are .container{
+    width: auto;
+  }
+  .who-we-are {
+/*    padding: 44px 0;*/
+    font-family: "Source Sans Pro";
+    color: #454545;  
+  }
+  .who-we-are .container > img {
+    position: static;
+    left: 25%;
+/*    text-align: center;*/
+/*    padding-top: 43px;*/
+/*    padding-bottom: 20px;*/
+/*
+    padding-left: 35px;
+    line-height: 30px;
+*/
+  }
+  .who-we-are h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .who-we-are h3 img{
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  .who-we-are p{
+  font-size: 13px;
+}
+.who-we-are p + p{
+ display: none;
+}
+.who-we-are .container > img {
+  position: relative;
+  left: 25%; 
+  }
+  
+/*
+  div .who-we-are .container{
+    display: none
+  }
+*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
