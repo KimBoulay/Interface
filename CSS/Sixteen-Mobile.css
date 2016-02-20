@@ -20,9 +20,10 @@
     text-align: center;
     height: 350px;
     background-color: #9abd67;
-    background-image: url("../SixteenImages/cityscapemobile.png");
+    background-image: url("../SixteenImages/cityscape.png");
     background-repeat: no-repeat;
     background-position: bottom center;
+    background-size: 175% auto;
 }
   header h1 {
     padding-top: 125px;
@@ -86,6 +87,15 @@
     display: none
   }
 */
+  .student-video{
+    width: auto;
+    background: url(../SixteenImages/students.jpg); background: no-repeat;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
   
   
   
