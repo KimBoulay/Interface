@@ -1,3 +1,4 @@
+/****** nav ******/
 nav {
   background-color: #acd373;
   height: 106px;
@@ -29,6 +30,7 @@ nav a:hover {
 .right {
   float: right;
 }
+/***** header *****/
 
 header {
   text-align: center;
@@ -57,6 +59,8 @@ header a {
   margin-top: 132px;
   display: block;
 }
+/***** who we are *****/
+
 .who-we-are {
   padding: 90px 0;
   font-family: "Source Sans Pro";
@@ -97,7 +101,7 @@ header a {
   display: inline-block;
   margin-left: 140px;
 }
-
+/***** student *****/
 .student-video {
   background: url('../SixteenImages/students.jpg') no-repeat top center;
   height: 523px;
@@ -107,6 +111,8 @@ header a {
 .student-video img {
   vertical-align: middle;
 }
+/***** our services *****/
+
 .our-services {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -196,6 +202,8 @@ header a {
     display: inline-block;
     margin-bottom: 100px;
 }
+/****** amazing team *******/
+
 .amazing-team {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -273,6 +281,9 @@ header a {
   vertical-align: middle;
   margin: 0 4px;
 }
+
+/***** join us *****/
+
 .join-us {
   background-color: #ebebeb;
   height: 110px;
@@ -292,6 +303,9 @@ header a {
   border: 1px solid #f2f2f2;
   text-decoration: none;
 }
+
+/***** our recent works *****/
+
 .OurRecentWorks {
     color: #f7f7f7;
     padding-top: 100px;
@@ -383,6 +397,8 @@ header a {
 .CompanyLogos li img {
     vertical-align: middle;
 }
+
+/***** testimonials *****/
 
 .Testimonials {
     background-image: url("../SixteenImages/TestimonialsBackground.jpg");
@@ -476,6 +492,9 @@ blockquote {
     padding-right: 24px;
     margin-right: 25px;
 }
+
+/***** blog *****/
+
 .Blog {
     height: 695px;
     background-position: auto;
@@ -547,42 +566,33 @@ blockquote {
     bottom: 0;
 }
 
-.Newsletter {
-    background-color: #acd373;
-    height: 110px;
-    font-family: "Source Sans Pro";
+/***** newsletter *****/
+.newsletter {
+    height: 109px;
+    background-color: #91bd67;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 110px;
+}
+.newsletter p {
+    font-family: 'source sans pro', sans-serif;
     font-size: 18px;
     color: #f7f7f7;
-}
-
-.Newsletter p {
-    left: 30%;
-    line-height: 110px;
     display: inline-block;
+    margin-right: 50px;
 }
-
-.Newsletter form {
-    display: inline-block; 
-    left: 35%;
-    line-height: 110px;
-}
-.Newsletter a{
-  background-color: #ebebeb;
-} 
-
-.Newsletter input[type=text] {
-    background-color: #acd373;
-    width: 180px;
+.newsletter input {
     height: 37px;
-    color: #f7f7f7;
-    font-style: italic;
-    text-align: center;
-    font-family: "DroidSerif";
-    font-size: 14px;
     border: 1px solid #f7f7f7;
+    font-family: 'droid serif', serif;
+    font-size: 14px;
+    background-color: #9abd67;
+    font-style: italic;
+    color: #f7f7f7;
+    vertical-align: middle;
+    text-align: center;
 }
-
-.Newsletter img {
+.newsletter img {
     vertical-align: middle;
 }
 
@@ -598,9 +608,88 @@ blockquote {
     align-items: center
 }
 
+/***** contact us *****/
+.ContactUs {
+    height: 750px;
+    background-color: #acd373;
+}
+.ContactUs .content {
+    padding-top: 87px;
+}
+.content {
+    max-width: 1170px;
+    padding: 94px 0;
+    margin: 0 auto;
+}
+.ContactUs .spacer {
+    padding-bottom: 38px;
+    padding-top: 14px;
+}
+.ContactUs h3 {
+    color: #f7f7f7;
+    text-align: center;
+    font-family: 'source sans pro', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+img.spacer {
+    display: block;
+    margin: 0 auto;
+}   
+.form {
+    margin: 0 auto;
+    width: 597px;
+}
+.ContactUs input, .ContactUs textarea {
+    display: block;
+    width: 570px;
+    background-color: #9abd67;
+    border: none;
+    margin-top: 13px;
+    margin-bottom: 34px; 
+    font-family: 'droid serif', serif;
+    font-size: 15px;
+    color: #f7f7f7;
+    font-style: italic;
+    padding-left: 25px;
+}
+.ContactUs input {
+    height: 38px;
+}
+.ContactUs textarea {
+    height: 133px;
+    padding-top: 22px;
+    margin-bottom: 50px;
+}
+.ContactUs label {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 18px;
+    color: #f7f7f7;
+}
+button {
+    background-color: #9abd67;
+    font-family: 'droid serif', serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #f7f7f7;
+    width: 110px;
+    height: 40px;
+    border: none;
+}
+.submit {
+    text-align: right;
+}
+:focus {
+    outline: none;
+}
+::-webkit-input-placeholder {
+    color: #f7f7f7;
+}
+/*
 .ContactUs {
     background-color: #acd373;
-    height: 820px;
+    height: 750px;
     font-family: "Source Sans Pro";
     font-size: 18px;
     color: #f7f7f7;
@@ -635,12 +724,23 @@ blockquote {
 
 .ContactUs form {
     padding-top: 68px;
+    margin: 0 auto;
+    width: 597px;
   
 }
 
 .ContactUs input[type=text], textarea{
-/*
-    
+    display: block;
+    width: 570px;
+    background-color: #9abd67;
+    border: none;
+    margin-top: 13px;
+    margin-bottom: 34px;
+    font-family: 'droid serif', serif;
+    font-size: 15px;
+    color: #f7f7f7;
+    font-style: italic;
+    padding-left: 25px;
     width: 550px;
     height: 40px;
     color: #f7f7f7;
@@ -649,7 +749,6 @@ blockquote {
     font-family: "DroidSerif";
     font-style: italic;
     font-size: 15px;
-*/
     background-color: #9abd67;
     border: none;
     display: block;
@@ -702,6 +801,7 @@ blockquote {
     padding: 20px;
     line-height: 24px;
 }
+*/
 footer {
     height: 110px;
     line-height: 110px;
